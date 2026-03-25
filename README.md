@@ -1,12 +1,11 @@
-# Frequency Response Analysis of Geophone-Based Bed Sensor
+# Frequency Response Analysis of Beddot
 
 ## Overview
 This repository contains the original nominal-bin(fft_response.py) and measured-bin(comboned_code.py) FFT analysis workflow used to estimate the frequency response of a geophone-based sensing system from shaker table data.
 
 The code processes both horizontal and vertical datasets, handles multiple geophone sensors, saves all outputs into a separate `Results` directory, and generates frequency-response plots for each sensor as well as combined comparison plots.
 
-The implemented method is the **nominal-bin FFT method**, meaning the response amplitude and phase are extracted from the FFT bin nearest to the nominal excitation frequency for each test folder.
-
+The implemented method is the **nominal-bin FFT method and measured-bin FFT method**.
 ---
 
 ## Repository Structure

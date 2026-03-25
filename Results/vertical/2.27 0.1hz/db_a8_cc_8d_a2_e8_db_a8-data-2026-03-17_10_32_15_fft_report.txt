@@ -1,0 +1,33 @@
+FFT-Based Frequency Response Report (Nominal Bin Method)
+====================================================================
+Direction: vertical
+File: cc_8d_a2_e8_db_a8-data-2026-03-17 10_32_15.csv
+Sensor Key: db_a8
+Folder: 2.27 0.1hz
+Nominal Frequency: 0.100000 Hz
+Sampling Rate: 100.0 Hz
+Duration: 139.010 s
+Samples: 13901
+
+PREPROCESSING:
+  DC offset removed: Yes
+  Trimmed samples at start/end: 1000
+  Window used: Hann
+
+TIME-DOMAIN SUMMARY:
+  Mean: 15,891.910
+  Std: 55,210.527
+  RMS (centered): 55,210.527
+  Peak: 111,836.000
+  Valley: -85,535.000
+  Peak-to-Peak: 197,371.000
+
+FFT RESPONSE AT NOMINAL FREQUENCY:
+  FFT Amplitude: 77,490.763
+  FFT Phase: -2.506 deg
+  Sensitivity: 15,498.153
+
+METHOD SUMMARY:
+  The signal was DC-corrected, trimmed to remove transients, windowed using a Hann window,
+  and transformed using FFT. The complex FFT coefficient nearest to the nominal excitation
+  frequency was extracted, and its magnitude and angle were used to compute amplitude and phase.

@@ -1,0 +1,2 @@
+Direction,Folder,CSV_File,Sensor_Key,Channel,Nominal_Frequency_Hz,Duration_s,Samples,Mean,Std,RMS_centered,Peak,Valley,Peak_to_Peak,FFT_Amplitude_at_Nominal,FFT_Phase_deg_at_Nominal,FFT_Sensitivity_at_Nominal
+vertical,2.36 1hz,cc_8d_a2_e8_db_a8-data-2026-03-17 11_17_35.csv,db_a8,Z,1.0,68.98,6898,16890.514207016528,3161091.619944412,3161091.619944412,4478016.0,-4450831.0,8928847.0,4468648.517782378,112.5644771181045,893729.7035564756

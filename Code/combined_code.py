@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 # =========================
 # CONFIGURATION
 # =========================
-root = "/Users/sahas_biddappa/Desktop/freq_resp/horizontal"   # change this
-sensor_key = "d7_84"                                          # change this
+root =   # change this
+sensor_key =                                        # change this
 channel_col = "Z"
 fs = 100.0
 V_INPUT = 5.0                                                 # shaker velocity input (mm/s)
